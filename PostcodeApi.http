@@ -1,0 +1,6 @@
+@PostcodesApi_HostAddress = http://localhost:5031
+
+GET {{PostcodesApi_HostAddress}}/Lookup/SE10AD
+Accept: application/json
+
+###
