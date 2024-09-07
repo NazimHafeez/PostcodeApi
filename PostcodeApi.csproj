@@ -16,10 +16,7 @@
   <ItemGroup>
     <PackageReference Include="MarkEmbling.PostcodesIO" Version="0.0.10" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.6" />
-    <PackageReference Include="Moq" Version="4.20.71" />
-    <PackageReference Include="MSTest.TestFramework" Version="3.1.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-    <PackageReference Include="xunit" Version="2.9.0" />
   </ItemGroup>
 
 </Project>
