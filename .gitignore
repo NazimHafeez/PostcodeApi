@@ -8,3 +8,5 @@
 /PostcodeApi.csproj.user
 /tests/PostcodeApiTests/bin/Debug/net8.0
 /tests/PostcodeApiTests/obj
+/tests/PostcodeApiFunctionTests/bin/Debug/net8.0
+/tests/PostcodeApiFunctionTests/obj

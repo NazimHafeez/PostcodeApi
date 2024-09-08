@@ -22,6 +22,8 @@ builder.Services.AddCors(options =>
         });
 });
 
+builder.Services.AddAWSLambdaHosting(LambdaEventSource.RestApi);
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
