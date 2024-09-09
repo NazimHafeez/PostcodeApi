@@ -1,10 +1,14 @@
 name: Pipeline
 
 on:
+  workflow_dispath:
   push:
     branches:
       - 'main'
       - 'feature**'
+  pull_request:
+    branches:
+      - 'main'
   delete:
     branches:
       - 'feature**'
