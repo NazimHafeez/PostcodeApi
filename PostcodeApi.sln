@@ -5,7 +5,7 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostcodeApi", "PostcodeApi.csproj", "{468E7D9D-D80F-41A9-9D11-A02D4CBDB932}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostcodeApiTests", "tests\PostcodeApiTests\PostcodeApiTests.csproj", "{D0AF8B61-6E5E-4898-B194-27379E4B848A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostcodeApiTests", "tests\PostcodeApiTests\PostcodeApiTests.csproj", "{D0AF8B61-6E5E-4898-B194-27379E4B848A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

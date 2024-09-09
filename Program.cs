@@ -16,11 +16,13 @@ builder.Services.AddCors(options =>
         policy =>
         {
             policy.WithOrigins(
-                    "http://localhost:3001")
+                    "http://localhost:3001", "http://localhost:3000", "http://postcode-app-bucket.s3-website.eu-west-2.amazonaws.com")
                 .AllowAnyHeader()
                 .AllowAnyMethod();
         });
 });
+
+builder.Services.AddAWSLambdaHosting(LambdaEventSource.RestApi);
 
 var app = builder.Build();
 
